@@ -1,0 +1,1 @@
+{"error": {"error_code": 8, "error_msg": "Invalid request: v is required. Version param should be passed as \"v\". \"version\" param is invalid and not supported.", "request_params": [{"key": "user_id", "value": "8544036"}, {"key": "method", "value": "users.get"}, {"key": "oauth", "value": "1"}]}}
