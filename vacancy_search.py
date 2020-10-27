@@ -58,7 +58,8 @@ def hhvacancy(key):
             vacancy_data['Вакансия'] = vac_name
             vacancy_data['Компания'] = vac_employer
             vacancy_data['Город'] = vac_city
-            vacancy_data['зп'] = vac_salary
+            vacancy_data['зп_мин'] = vac_salary_min
+            vacancy_data['зп_макс'] = vac_salary_max
             vacancy_data['Сайт'] = vac_res
             result.append(vacancy_data)
             lnum += 1
